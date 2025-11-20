@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp package="com.weatherapp.wearable">
+    <versionCode>1</versionCode>
+    <versionName>1.0</versionName>
+    
+    <!-- Standalone mode - wearable can work without phone -->
+    <standAlone value="true" />
+    
+    <!-- But prefers phone companion for data sync -->
+    <phoneAppRequired>false</phoneAppRequired>
+</wearableApp>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Capability name for wearable app to advertise -->
+    <string name="wearable_app_capability" translatable="false">wearable_weather_app</string>
+</resources>
+

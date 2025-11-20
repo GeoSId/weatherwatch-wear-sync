@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer circle background -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z"
+        android:fillColor="#1a237e" />
+    
+    <!-- Main glossy sphere -->
+    <path android:pathData="M54,10 C78.4,10 98,29.6 98,54 C98,78.4 78.4,98 54,98 C29.6,98 10,78.4 10,54 C10,29.6 29.6,10 54,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="25"
+                android:endX="75"
+                android:endY="85"
+                android:type="linear">
+                <item
+                    android:color="#3f51b5"
+                    android:offset="0.0" />
+                <item
+                    android:color="#1976d2"
+                    android:offset="0.5" />
+                <item
+                    android:color="#0d47a1"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Inner gradient for depth -->
+    <path android:pathData="M54,15 C75.5,15 93,32.5 93,54 C93,75.5 75.5,93 54,93 C32.5,93 15,75.5 15,54 C15,32.5 32.5,15 54,15 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="30"
+                android:endX="70"
+                android:endY="80"
+                android:type="linear">
+                <item
+                    android:color="#5c6bc0"
+                    android:offset="0.0" />
+                <item
+                    android:color="#3949ab"
+                    android:offset="0.3" />
+                <item
+                    android:color="#283593"
+                    android:offset="0.7" />
+                <item
+                    android:color="#1a237e"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Glossy highlight effect -->
+    <path android:pathData="M54,20 C69.5,20 82,32.5 82,48 C82,55 79,61.5 74.5,66.5 C70,71.5 64,75 57,76.5 C63.5,73 68.5,67 71.5,60 C74.5,53 75,45.5 73.5,38.5 C72,31 68.5,24.5 63.5,20 C60.5,18 57.5,17.5 54.5,18 C51,18.5 48,20 45.5,22.5 C50,20.5 52,20 54,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="45"
+                android:startY="25"
+                android:endX="65"
+                android:endY="45"
+                android:type="linear">
+                <item
+                    android:color="#bbdefb"
+                    android:offset="0.0" />
+                <item
+                    android:color="#90caf9"
+                    android:offset="0.3" />
+                <item
+                    android:color="#64b5f6"
+                    android:offset="0.7" />
+                <item
+                    android:color="#42a5f5"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Additional highlight for glossy effect -->
+    <path android:pathData="M45,25 C52,22 59,22 65,25 C68,27 70,30 71,33 C69,28 65,24 60,22 C55,20 50,20 45,22 C43,23 42,24 42,25 C43,24 44,24.5 45,25 Z"
+        android:fillColor="#e3f2fd"
+        android:fillAlpha="0.6" />
+</vector>

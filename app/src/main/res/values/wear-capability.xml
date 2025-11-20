@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Capability name for mobile app to advertise -->
+    <string name="mobile_app_capability" translatable="false">mobile_weather_app</string>
+</resources>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M36,36m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+    <!-- Weather icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,20
+                        C44,20 50,26 50,34
+                        C58,34 64,40 64,48
+                        C64,56 58,62 50,62
+                        L22,62
+                        C14,62 8,56 8,48
+                        C8,40 14,34 22,34
+                        C22,26 28,20 36,20 Z" />
+</vector> 

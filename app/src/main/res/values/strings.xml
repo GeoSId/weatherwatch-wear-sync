@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather </string>
+    <string name="forecast">FORECAST</string>
+    <string name="wind">Wind</string>
+    <string name="search">Search</string>
+    <string name="search_city">Search city…</string>
+    <string name="settings">Settings</string>
+    <string name="weather">WEATHER</string>
+    <string name="unknown">Unknown</string>
+    <string name="back">Back</string>
+    <string name="openweather_api_key">OpenWeather API Key</string>
+    <string name="enter_your_openweather_api_key_to_fetch_weather_data">"Enter your OpenWeather API key to fetch weather data. "</string>
+    <string name="you_can_get_a_free_api_key_at_openweathermap_org">You can get a free API key at openweathermap.org.</string>
+    <string name="enter_your_openweather_api_key">Enter your OpenWeather API key</string>
+    <string name="save_api_key">Save API Key</string>
+    <string name="success">Success</string>
+    <string name="api_key_saved_successfully">API key saved successfully!</string>
+    <string name="information">Information</string>
+    <string name="_1_go_to_openweathermap_org_and_create_a_free_account">1. Go to openweathermap.org and create a free account</string>
+    <string name="_2_after_logging_in_go_to_your_account_page_and_select_api_keys">2. After logging in, go to your account page and select \'API Keys\'</string>
+    <string name="_3_generate_a_new_api_key_or_use_your_existing_one">3. Generate a new API key or use your existing one</string>
+    <string name="_4_copy_the_api_key_and_paste_it_in_the_field_above">4. Copy the API key and paste it in the field above</string>
+    <string name="note_new_api_keys_may_take_a_few_hours_to_activate">Note: New API keys may take a few hours to activate</string>
+    <string name="getting_an_api_key">Getting an API Key</string>
+    <string name="api_key">API Key</string>
+    <string name="day_forecast">DAY FORECAST</string>
+    <string name="feels_like_c">Feels like: %1$d°C</string>
+    <string name="time">Time</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="wind_direction">Wind Direction</string>
+    <string name="pressure">Pressure</string>
+    <string name="chance_of_rain">Chance of Rain</string>
+    <string name="visibility">Visibility</string>
+    <string name="sunrise">Sunrise: %1$s</string>
+    <string name="sunset">Sunset: %1$s</string>
+    <string name="ai_weather_predictions">AI WEATHER PREDICTIONS</string>
+    <string name="powered_by_neural_weather_model">Powered by Neural Weather Model</string>
+    <string name="ai_confidence">"AI Confidence: "</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Define capabilities that this wearable app provides.
+        This allows the phone app to discover this wearable.
+    -->
+    <capability android:name="weather_app" />
+    <capability android:name="weather_display" />
+</resources>

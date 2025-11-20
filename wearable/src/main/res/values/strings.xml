@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> Weather</string>
+    
+    <!-- Tile names -->
+    <string name="weather_tile_name">Weather</string>
+    <string name="building_tile_name">Building</string>
+    <string name="health_tile_name">Health</string>
+    
+    <!-- Complication names -->
+    <string name="weather_complication_name">Weather Info</string>
+    <string name="building_complication_name">Building Info</string>
+    <string name="health_complication_name">Health Info</string>
+    
+    <!-- Screen titles -->
+    <string name="weather_screen_title">Weather</string>
+    <string name="building_screen_title">Building</string>
+    <string name="health_screen_title">Health</string>
+    <string name="settings_screen_title">Settings</string>
+    
+    <!-- Status messages -->
+    <string name="loading">Loading…</string>
+    <string name="no_data">No data available</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="syncing">Syncing…</string>
+    
+    <!-- Actions -->
+    <string name="refresh">Refresh</string>
+    <string name="sync">Sync</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="voice_command">Voice Command</string>
+    
+    <!-- Weather related -->
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="condition">Condition</string>
+    
+    <!-- Building related -->
+    <string name="building_name">Building</string>
+    <string name="floor">Floor</string>
+    <string name="sunlight_exposure">Sunlight</string>
+    <string name="alerts">Alerts</string>
+    <string name="no_alerts">No alerts</string>
+    
+    <!-- Health related -->
+    <string name="heart_rate">Heart Rate</string>
+    <string name="steps">Steps</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    
+    <!-- Units -->
+    <string name="celsius">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="percentage">%</string>
+    <string name="meters_per_second">m/s</string>
+    <string name="beats_per_minute">bpm</string>
+    <string name="meters">m</string>
+    <string name="steps_unit">steps</string>
+    <string name="calories_unit">cal</string>
+    
+    <!-- Error messages -->
+    <string name="network_error">Network error</string>
+    <string name="sensor_error">Sensor error</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="device_not_connected">Device not connected</string>
+    <string name="data_unavailable">Data unavailable</string>
+    
+    <!-- Success messages -->
+    <string name="sync_completed">Sync completed</string>
+    <string name="data_updated">Data updated</string>
+    <string name="command_executed">Command executed</string>
+    <string name="settings_saved">Settings saved</string>
+
+    <!-- Voice commands -->
+    <string name="voice_command_hint">Say "Weather" or "Building"</string>
+    <string name="voice_listening">Listening…</string>
+    <string name="voice_processing">Processing…</string>
+
+    <!-- Accessibility -->
+    <string name="weather_icon_description">Weather condition icon</string>
+    <string name="building_icon_description">Building status icon</string>
+    <string name="health_icon_description">Health status icon</string>
+    <string name="sync_icon_description">Sync status icon</string>
+    
+    <!-- Notifications -->
+    <string name="weather_alert_title">Weather Alert</string>
+    <string name="building_alert_title">Building Alert</string>
+    <string name="health_alert_title">Health Alert</string>
+    <string name="sync_notification_title">Sync Status</string>
+    <string name="syncing_with_phone">Syncing with phone…</string>
+    <string name="tap_to_retry">Tap to retry</string>
+    <string name="direct_api">Direct API</string>
+    <string name="from_phone">From phone ✓</string>
+</resources> 

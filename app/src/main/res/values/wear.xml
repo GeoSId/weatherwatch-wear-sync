@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Declare capabilities that this mobile app provides.
+        This allows wearable devices to discover this app.
+    -->
+    <string-array name="android_wear_capabilities">
+        <item>weather_app</item>
+        <item>weather_data_provider</item>
+    </string-array>
+</resources>
+

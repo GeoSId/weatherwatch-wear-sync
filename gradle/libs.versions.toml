@@ -1,0 +1,104 @@
+[versions]
+androidx-activity = "1.10.1"
+androidx-appcompat = "1.7.1"
+# @keep
+androidx-hilt = "1.3.0"
+androidx-lifecycle = "2.9.4"
+androidx-navigation = "2.9.6"
+androidx-palette = "1.0.0"
+androidx-test-ext = "1.3.0"
+com-google-dagger = "2.57.2"
+com-google-devtools = "2.2.0-2.0.2"
+com-google-dagger-hilt-android = "2.57.2"
+kotlin = "2.2.20"
+kotlinx-coroutines-play-services = "1.10.2"
+tools-core = "1.0.0-alpha13"
+retrofit = "3.0.0"
+kotlin-coroutines = "1.10.2"
+fb-stetho = "1.6.0"
+log-interceptor = "5.3.0"
+constraintlayout-compose = "1.1.1"
+android-security = "1.1.0"
+material3 = "1.4.0"
+google-secrets = "2.0.1"
+play-services-wearable = "19.0.0"
+androidx-wear = "1.3.0"
+androidx-wear-compose = "1.5.5"
+androidx-health-services = "1.0.0"
+androidx-wear-tiles = "1.5.0"
+androidx-wear-watchface = "1.2.1"
+protobuf-javalite = "4.33.1"
+compose-icons = "1.7.8"
+gson = "2.13.2"
+androidx-espresso = "3.7.0"
+junit = "4.13.2"
+
+[libraries]
+androidx-activity-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-compose-bom = "androidx.compose:compose-bom:2025.11.00"
+kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinx-coroutines-play-services" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-compose-runtime-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-ui-util = { module = "androidx.compose.ui:ui-util" }
+androidx-compose-ui-ui-test-junit4 = "androidx.compose.ui:ui-test-junit4:1.9.4"
+androidx-compose-ui-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+androidx-compose-ui-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-compose-ui-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-icons-core = { module = "androidx.compose.material:material-icons-core", version.ref = "compose-icons" }
+androidx-paging-paging-compose = "androidx.paging:paging-compose:3.3.6"
+androidx-paging-paging-runtime-ktx = "androidx.paging:paging-runtime-ktx:3.3.6"
+constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayout-compose" }
+
+androidx-core-core-ktx = "androidx.core:core-ktx:1.17.0"
+androidx-hilt-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "androidx-hilt" }
+androidx-lifecycle-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-navigation-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
+androidx-palette-palette-ktx = { module = "androidx.palette:palette-ktx", version.ref = "androidx-palette" }
+androidx-test-ext-junit-ktx = { module = "androidx.test.ext:junit-ktx", version.ref = "androidx-test-ext" }
+androidx-test-espresso-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-espresso" }
+com-jakewharton-timber = "com.jakewharton.timber:timber:5.0.1"
+io-coil-kt-coil-compose = "io.coil-kt:coil-compose:2.7.0"
+io-coil-kt-coil-compose-ext = "io.coil-kt:coil-svg:2.7.0"
+io-mockk = "io.mockk:mockk:1.14.6"
+kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin" }
+androidx-tools-core = { group = "androidx.privacysandbox.tools", name = "tools-core", version.ref = "tools-core" }
+retrofit-runtime = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-adapter_rx_java2 = { module = "com.squareup.retrofit2:adapter-rxjava2", version.ref = "retrofit" }
+retrofit-mock = { module = "com.squareup.retrofit2:retrofit-mock", version.ref = "retrofit" }
+retrofit-gson_converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+kotlin-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin-coroutines" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }
+fb-stetho = { module = "com.facebook.stetho:stetho", version.ref = "fb-stetho" }
+fb-stetho-okhttp3 = { module = "com.facebook.stetho:stetho-okhttp3", version.ref = "fb-stetho" }
+log-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "log-interceptor" }
+android-security = { group = "androidx.security", name = "security-crypto-ktx", version.ref = "android-security" }
+androidx-lifecycle-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+
+com-google-dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
+com-google-dagger-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "play-services-wearable" }
+androidx-wear = { module = "androidx.wear:wear", version.ref = "androidx-wear" }
+androidx-wear-compose-foundation = { module = "androidx.wear.compose:compose-foundation", version.ref = "androidx-wear-compose" }
+androidx-wear-compose-ui-tooling = { module = "androidx.wear.compose:compose-ui-tooling", version.ref = "androidx-wear-compose" }
+androidx-wear-compose-navigation = { module = "androidx.wear.compose:compose-navigation", version.ref = "androidx-wear-compose" }
+androidx-health-health-services-client = { module = "androidx.health:health-services-client", version.ref = "androidx-health-services" }
+androidx-wear-tiles = { module = "androidx.wear.tiles:tiles", version.ref = "androidx-wear-tiles" }
+androidx-wear-tiles-material = { module = "androidx.wear.tiles:tiles-material", version.ref = "androidx-wear-tiles" }
+androidx-wear-watchface-complications-data-source = { module = "androidx.wear.watchface:watchface-complications-data-source", version.ref = "androidx-wear-watchface" }
+com-google-protobuf-javalite = { module = "com.google.protobuf:protobuf-javalite", version.ref = "protobuf-javalite" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { module = "junit:junit", version.ref = "junit" }
+
+[plugins]
+
+com-android-application = "com.android.application:8.13.0"
+com-android-library = "com.android.library:8.13.0"
+com-google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "com-google-dagger-hilt-android" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+com-google-devtools = { id = "com.google.devtools.ksp", version.ref = "com-google-devtools" }
+google-secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "google-secrets" }
+

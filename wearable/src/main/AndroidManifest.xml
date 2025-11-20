@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Required for Wear OS devices -->
+    <uses-feature android:name="android.hardware.type.watch" android:required="true" />
+    
+    <!-- Basic permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+
+    <application
+        android:name="com.weather.wearable.WearableWeatherApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault"
+        tools:ignore="GoogleAppIndexingWarning">
+        
+        <!-- Required for Wear OS -->
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+
+        <!-- Support both standalone and companion mode -->
+        <!-- Prefers phone companion, but can work standalone for fallback API -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+        
+        <!-- Declare wearable app capability -->
+        <meta-data
+            android:name="com.google.android.wearable.CAPABILITY"
+            android:resource="@xml/wearable_capability" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name="com.weather.wearable.MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:allowEmbedded="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Data Layer Listener for phone communication -->
+        <service
+            android:name="com.weather.wearable.data.DataLayerListenerService"
+            android:enabled="true"
+            android:exported="true"
+            android:stopWithTask="false"
+            android:foregroundServiceType="dataSync">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <action android:name="com.google.android.gms.wearable.CAPABILITY_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.CHANNEL_EVENT" />
+                <data android:scheme="wear" android:host="*" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest> 

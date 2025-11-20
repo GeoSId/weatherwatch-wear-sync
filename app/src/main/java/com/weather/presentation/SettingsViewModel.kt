@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.weather.data.repository.SettingsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
@@ -39,7 +40,7 @@ class SettingsViewModel @Inject constructor(
     fun saveApiKey(newApiKey: String) {
         viewModelScope.launch {
             _isLoading.value = true
-            settingsRepository.saveApiKey(newApiKey)
+            settingsRepository.saveApiKey(newApiKey).first()
             _apiKey.value = newApiKey
             _isLoading.value = false
         }

@@ -119,3 +119,11 @@ PhoneSyncRepository checks connection
 
 ## Usage Philosophy
 Treat WeatherWatch as a **laboratory for bidirectional sync**. The focus is stability, observability, and recovery—not shipping features. Collect metrics, reproduce edge cases, and iterate on the message contracts here before promoting changes into production-grade mobile and Wear OS apps.***
+
+
+Check the video  https://github.com/user-attachments/assets/99307eba-aeb5-47aa-9258-3f32a9a5a9f8
+
+[wear_os.webm](https://github.com/user-attachments/assets/99307eba-aeb5-47aa-9258-3f32a9a5a9f8)
+
+
+
